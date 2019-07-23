@@ -14,10 +14,6 @@ variable "db_username" {
   default = "default value"
 }
 
-variable "dns_name" {
-  default = "default value"
-}
-
 variable "instance_identifier" {
   default = "default value"
 }
