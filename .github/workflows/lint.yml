@@ -35,3 +35,6 @@ jobs:
 
     - name: Run TFLint
       run: tflint -f compact
+
+    - name: Check Limits
+      run: curl -H https://api.github.com/rate_limit
